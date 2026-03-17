@@ -1,0 +1,12 @@
+report = """
+Skin Analysis Report
+
+Condition detected: Acne
+Confidence: 87%
+
+Explanation:
+Acne occurs when pores become clogged with oil and dead skin cells.
+"""
+
+with open("report.txt", "w") as f:
+    f.write(report)
